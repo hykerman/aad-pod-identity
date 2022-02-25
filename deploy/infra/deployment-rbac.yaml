@@ -481,6 +481,7 @@ spec:
           - "--http-probe-port=8085"
           - "--enableScaleFeatures=true"
           - "--metadata-header-required=true"
+          - "--allow-network-plugin-kubenet=true"
         env:
           - name: HOST_IP
             valueFrom:
